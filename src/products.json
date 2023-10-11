@@ -1,0 +1,105 @@
+[
+	{
+		"id": "5442c2c3-f58d-47e5-9969-ced344a32cac",
+		"title": "Product 1",
+		"description": "Description product 1",
+		"price": 500,
+		"thumbanil": "without img",
+		"code": "abc2020",
+		"stock": 5,
+		"status": true,
+		"category": "Number"
+	},
+	{
+		"id": "17fb4a87-c318-4d77-9640-e1dcf38b6c36",
+		"title": "Product A",
+		"description": "Description product A",
+		"price": 500,
+		"thumbanil": "without img",
+		"code": "abc2040",
+		"stock": 5,
+		"status": true,
+		"category": "Word"
+	},
+	{
+		"id": "2799d23b-c175-478e-bda8-24760498c00a",
+		"title": "Product E",
+		"description": "Description product E",
+		"price": 500,
+		"thumbanil": "without img",
+		"code": "abc20",
+		"stock": 5
+	},
+	{
+		"id": "a0de5578-abd2-49fd-9378-794c0eb311ec",
+		"title": "Product B",
+		"description": "Description product B",
+		"price": 500,
+		"thumbanil": "without img",
+		"code": "abc201",
+		"stock": 5
+	},
+	{
+		"id": "23e74bd4-5522-4592-88b6-6e7fbe771585",
+		"title": "Product D",
+		"description": "Description product D",
+		"price": 500,
+		"thumbanil": "without img",
+		"code": "abc500",
+		"stock": 5
+	},
+	{
+		"id": "1ee1bc33-6795-4bae-a9e4-1d63b6a1823b",
+		"title": "Product B",
+		"description": "Description product B",
+		"price": 530,
+		"thumbanil": "without img",
+		"code": "abc530",
+		"stock": 5
+	},
+	{
+		"id": "e0cad05c-7795-440b-b54d-e3395025de90",
+		"title": "Product 2",
+		"description": "Description product 2",
+		"price": 5030,
+		"thumbanil": "without img",
+		"code": "abc2011",
+		"stock": 12
+	},
+	{
+		"id": "409cfd30-42af-41c0-ad37-00fe9741f7f4",
+		"title": "Product 3",
+		"description": "Description product 3",
+		"price": 5002,
+		"thumbanil": "without img",
+		"code": "abc20111",
+		"stock": 5
+	},
+	{
+		"id": "94fc071a-338d-4b8f-87b2-55770809230d",
+		"title": "Product 4",
+		"description": "Description product 4",
+		"price": 5002,
+		"thumbanil": "without img",
+		"code": "abc201411",
+		"stock": 5
+	},
+	{
+		"id": "3cc2646d-7a0b-480f-b770-9a046da2d526",
+		"title": "Product 5",
+		"description": "Description product 5",
+		"price": 5002,
+		"thumbanil": "without img",
+		"code": "abc2014161",
+		"stock": 5
+	},
+	{
+		"id": "ad9067d1-5b7f-4b49-976e-aa16cd32f9c7",
+		"title": "Product 6",
+		"description": "Description product 6",
+		"price": 5002,
+		"thumbanil": "without img",
+		"code": "abc20141651",
+		"stock": 5
+	}
+]

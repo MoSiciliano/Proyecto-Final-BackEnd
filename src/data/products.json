@@ -1,0 +1,20 @@
+[
+	{
+		"id": "d851eaa1-aca8-4dc4-8bcd-295207da8bba",
+		"title": "Product A",
+		"description": "Description product G",
+		"price": 200,
+		"thumbanil": "without img",
+		"code": "abc5",
+		"stock": 5
+	},
+	{
+		"id": "9f831394-f2e8-435d-95ab-1cadee398555",
+		"title": "Product 2",
+		"description": "Description product 2",
+		"price": 5002,
+		"thumbanil": "without img",
+		"code": "abc20141651",
+		"stock": 5
+	}
+]
