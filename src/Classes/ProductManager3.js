@@ -11,13 +11,13 @@ class ProductManager {
     title,
     description,
     price,
-    thumbanil,
+    thumbnail,
     code,
     stock,
     category,
   }) {
     if (
-      !(title && description && price && thumbanil && code && stock && category)
+      !(title && description && price && thumbnail && code && stock && category)
     ) {
       throw new Error("Data is missing, please check it");
     }
@@ -30,7 +30,7 @@ class ProductManager {
           title,
           description,
           price,
-          thumbanil,
+          thumbnail,
           code,
           stock,
         };
@@ -59,7 +59,7 @@ class ProductManager {
     price,
     status,
     category,
-    thumbanil,
+    thumbnail,
     code,
     stock,
   }) {
@@ -91,7 +91,7 @@ class ProductManager {
       product.title = title || product.title;
       product.description = description || product.description;
       product.price = price || product.price;
-      product.thumbanil = thumbanil || product.thumbanil;
+      product.thumbnail = thumbnail || product.thumbnail;
       product.status = status !== undefined ? status : product.status;
       product.category = category || product.category;
       product.code = code || product.code;

@@ -16,5 +16,23 @@
 		"thumbanil": "without img",
 		"code": "abc20141651",
 		"stock": 5
+	},
+	{
+		"id": "c1415948-3673-410b-9789-0e1621c0f81d",
+		"title": "Product 3",
+		"description": "Description product 3",
+		"price": 5002,
+		"thumbnail": "without img",
+		"code": "abc201416514",
+		"stock": 5
+	},
+	{
+		"id": "ddc016fd-b19b-4df2-a79d-42ea1ffef6fc",
+		"title": "Product 4",
+		"description": "Description product 4",
+		"price": 5002,
+		"thumbnail": "without img",
+		"code": "abc2014416514",
+		"stock": 5
 	}
 ]

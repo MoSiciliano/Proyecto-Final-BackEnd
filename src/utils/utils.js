@@ -27,6 +27,7 @@ export const getJSONFromFile = async (path) => {
 
 export const saveJSONToFile = async (path, data) => {
   const content = JSON.stringify(data, null, "\t");
+  //console.log(content);
   try {
     await fs.promises.writeFile(path, content, "utf-8");
     return "Product Added";

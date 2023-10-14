@@ -12,11 +12,11 @@ const router = Router();
 // });
 //Camino de la muerte del Post
 router.post("/", async (req, res) => {
-  const { title, description, code, price, stock, category, thumbanil } =
+  const { title, description, code, price, stock, category, thumbnail } =
     req.body;
   try {
     if (
-      !(title && description && price && thumbanil && code && stock && category)
+      !(title && description && price && thumbnail && code && stock && category)
     ) {
       return res.status(400).json({ error: `some data is missing` });
     }
@@ -32,7 +32,7 @@ router.post("/", async (req, res) => {
       return res.status(400).json({ error: "Product already exist" });
     }
   } catch (error) {
-    console.log("error", error);
+    //console.log("error", error);
     return res.status(500).send(error);
   }
 });
@@ -64,7 +64,7 @@ router.put("/:pID", async (req, res) => {
     price,
     stock,
     category,
-    thumbanil,
+    thumbnail,
   } = req.body;
   try {
     let product = await productManager.getProductById(pID);
@@ -77,7 +77,7 @@ router.put("/:pID", async (req, res) => {
       product.title = title || product.title;
       product.description = description || product.description;
       product.price = price || product.price;
-      product.thumbanil = thumbanil || product.thumbanil;
+      product.thumbnail = thumbnail || product.thumbnail;
       product.code = code || product.code;
       product.status = status !== undefined ? status : product.status;
       product.category = category || product.category;
