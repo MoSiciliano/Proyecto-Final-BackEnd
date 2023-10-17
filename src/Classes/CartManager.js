@@ -10,7 +10,6 @@ class CartManager {
     let newCart = {
       id: uuidv4(),
       products: [],
-      ...cartInitial,
     };
     cartInitial.push(newCart);
     await saveJSONToFile(this.path, cartInitial);
