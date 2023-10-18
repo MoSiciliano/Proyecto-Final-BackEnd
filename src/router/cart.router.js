@@ -17,7 +17,7 @@ router.get("/", async (req, res) => {
 
 router.get("/:cid", async (req, res) => {
   const { cid } = req.params;
-  const cartId = await carts.getCartById(cid);
+  const cartId = await carts.getCartsByID(cid);
   cartId
     ? res.status(201).json({ cart: cartId })
     : res.status(404).json({ error: `Cart with id: ${cid} doesn't exist` });
